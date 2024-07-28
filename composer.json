@@ -8,6 +8,15 @@
 			"name": "Tim Moritz Kühle"
 		}
 	],
-	"minimum-stability": "@dev",
-	"require": {}
+	"minimum-stability": "dev",
+	"require": {
+		"timmkuehle/rosetta-core": "@dev"
+	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "../rosetta-core",
+			"symlink": true
+		}
+	]
 }
