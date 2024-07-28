@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1df4936d06200c88841f900f3dc81886",
+    "packages": [
+        {
+            "name": "timmkuehle/rosetta-core",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../rosetta-core",
+                "reference": "faa045de5ac950ca238874d7408d5ffd77d4c304"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rosetta\\Core\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Moritz Kühle"
+                }
+            ],
+            "description": "Core PHP functionality of the Rosetta framework",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "timmkuehle/rosetta-core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
