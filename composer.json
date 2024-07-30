@@ -12,10 +12,19 @@
 	"require": {
 		"timmkuehle/rosetta-core": "@dev"
 	},
+	"require-dev": {
+		"timmkuehle/rosetta-lang-support": "@dev",
+		"friendsofphp/php-cs-fixer": "^3.60"
+	},
 	"repositories": [
 		{
 			"type": "path",
 			"url": "../rosetta-core",
+			"symlink": true
+		},
+		{
+			"type": "path",
+			"url": "../rosetta-lang-support",
 			"symlink": true
 		}
 	]
