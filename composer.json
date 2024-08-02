@@ -1,13 +1,5 @@
 {
-	"name": "timmkuehle/rosetta-starter",
-	"description": "Empty starter project using the Rosetta framework",
-	"type": "project",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Tim Moritz Kühle"
-		}
-	],
+	"type": "metapackage",
 	"minimum-stability": "dev",
 	"require": {
 		"timmkuehle/rosetta-core": "@dev"
